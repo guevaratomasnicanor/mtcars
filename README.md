@@ -1,38 +1,57 @@
-# mtcars
-El dataset mtcars contiene información sobre 32 modelos de autos (de 1973-74) y 11 variables numéricas relacionadas con su rendimiento, consumo y diseño.
+🚗 Análisis del Dataset mtcars
+
+El dataset mtcars contiene información sobre 32 modelos de autos (años 1973–74) y 11 variables numéricas relacionadas con su rendimiento, consumo y diseño mecánico.
+
+📋 Descripción de las variables principales
 Variable	Descripción	Tipo	Ejemplo
 mpg	Millas por galón (eficiencia)	numérica	21.0
-cyl	Número de cilindros	numérica (entera)	6
+cyl	Número de cilindros	entera	6
 disp	Desplazamiento (pulg³)	numérica	160
 hp	Caballos de fuerza	numérica	110
 drat	Relación del eje trasero	numérica	3.90
 wt	Peso (miles de libras)	numérica	2.620
-qsec	1/4 de milla (segundos)	numérica	16.46
-vs	Motor (0 = en V, 1 = recto)	binaria	0
+qsec	Tiempo 1/4 de milla (segundos)	numérica	16.46
+vs	Tipo de motor (0 = en V, 1 = recto)	binaria	0
 am	Transmisión (0 = automática, 1 = manual)	binaria	1
-gear	Cantidad de marchas	numérica (entera)	4
-carb	Cantidad de carburadores	numérica (entera)	4
+gear	Cantidad de marchas	entera	4
+carb	Cantidad de carburadores	entera	4
+📊 Relaciones entre variables
+🔹 Relación con la eficiencia (mpg)
 
-Relaciones entre variables:
-- Relaciones con la variable objetivo(mpg): Todas las variables tienen fuerte relacion con las millas por galón: Las que mas se destacan son numeros de cilindro, desplazamiento y peso (Todas impactan negativamente, con una correlacion del -85%), mientras que caballos de fuerza y tipo de motor afectan positivamente(correlacion del 68%)
-- Relaciones fuertes de otras variables: 90% entre cilindros y desplazamiento, 89% entre peso y desplazamiento,83% entre cilindros y caballos de fuerza y 81% entre cilindros y motor.
+Las variables más relacionadas con el consumo (mpg) son:
 
-INSIGHTS: - A mayor  cantidad de marchas, relacion del eje trasero y cantidad de segundos al cuarto de milla es mas probable que la marca de auto sea mas eficiente. 
-- Los autos manuales o los que tienen motor recto tienen mejores rendimientos
-- A menor peso, cantidad de cilindros, cantidad de carburadores,  caballos de fuerza y pulgadas de desplazamiento, menos eficiente es el auto.
- 
-SVM
-R2 0.7039912, RMSE1.932349, MAE 1.617586
-RandomForest
-0.7173837, 1.888130, 1.766283
-GradientBoost 0.6917919, 1.971766, 1.853657
-MLP
-0.4393210, 2.659442, 2.166595
+Número de cilindros, peso y desplazamiento, todas con correlaciones negativas cercanas al -85%, indicando que autos más pesados o con motores más grandes consumen más combustible.
 
+Caballos de fuerza y tipo de motor (vs) muestran correlaciones positivas (≈ +68%), asociadas a un mejor rendimiento.
 
+🔹 Correlaciones entre variables técnicas
 
+Cilindros ↔ Desplazamiento: 0.90
 
+Peso ↔ Desplazamiento: 0.89
 
+Cilindros ↔ Caballos de fuerza: 0.83
+
+Cilindros ↔ Tipo de motor: 0.81
+
+💡 Insights clave
+
+🔸 Los autos manuales y con motor en línea tienden a ser más eficientes.
+
+🔸 Una menor cantidad de cilindros, peso y desplazamiento implica mayor eficiencia.
+
+🔸 La cantidad de marchas y la relación del eje trasero se asocian a un mejor rendimiento.
+
+🔸 Los autos con más caballos de fuerza o más carburadores suelen tener menor eficiencia de combustible.
+
+🤖 Modelos predictivos para mpg
+Modelo	R²	RMSE	MAE
+Random Forest	0.717	1.888	1.766
+SVM	0.704	1.932	1.618
+Gradient Boost	0.692	1.972	1.854
+MLP (Neural Network)	0.439	2.659	2.167
+
+📈 El modelo Random Forest logra el mejor desempeño, con un R² de 0.717 y un RMSE inferior a 1.9, mostrando buena capacidad para predecir la eficiencia (mpg) en base a las características del auto.
 
 
 
