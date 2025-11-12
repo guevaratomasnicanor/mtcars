@@ -56,9 +56,3 @@ El dataset **mtcars** contiene información sobre **32 modelos de autos** (años
 📈 **El modelo Random Forest logra el mejor desempeño**, con un R² de 0.717 y un RMSE inferior a 1.9, mostrando buena capacidad para predecir la eficiencia (mpg) en base a las características del auto.
 
 ---
-
-
-
-
-![Relaciones entre variables](https://github.com/user-attachments/assets/xxxxx)
-![Importancia de variables](https://github.com/user-attachments/assets/yyyyy)
