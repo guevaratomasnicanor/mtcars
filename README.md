@@ -59,6 +59,6 @@ El dataset **mtcars** contiene información sobre **32 modelos de autos** (años
 
 
 
-```markdown
+
 ![Relaciones entre variables](https://github.com/user-attachments/assets/xxxxx)
 ![Importancia de variables](https://github.com/user-attachments/assets/yyyyy)
