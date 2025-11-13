@@ -4,19 +4,19 @@ El dataset **mtcars** contiene información sobre **32 modelos de autos** (años
 
 ### 📋 Descripción de las variables principales
 
-| Variable | Descripción | Tipo | Ejemplo |
-|-----------|--------------|------|----------|
-| **mpg** | Millas por galón (eficiencia) | numérica | 21.0 |
-| **cyl** | Número de cilindros | entera | 6 |
-| **disp** | Desplazamiento (pulg³) | numérica | 160 |
-| **hp** | Caballos de fuerza | numérica | 110 |
-| **drat** | Relación del eje trasero | numérica | 3.90 |
-| **wt** | Peso (miles de libras) | numérica | 2.620 |
-| **qsec** | Tiempo 1/4 de milla (segundos) | numérica | 16.46 |
-| **vs** | Tipo de motor (0 = en V, 1 = recto) | binaria | 0 |
-| **am** | Transmisión (0 = automática, 1 = manual) | binaria | 1 |
-| **gear** | Cantidad de marchas | entera | 4 |
-| **carb** | Cantidad de carburadores | entera | 4 |
+| Variable | Descripción | Tipo | 
+|-----------|--------------|------|
+| **mpg** | Millas por galón (eficiencia) | numérica |
+| **cyl** | Número de cilindros | entera 
+| **disp** | Desplazamiento (pulg³) | numérica |
+| **hp** | Caballos de fuerza | numérica |
+| **drat** | Relación del eje trasero | numérica | 
+| **wt** | Peso (miles de libras) | numérica | 
+| **qsec** | Tiempo 1/4 de milla (segundos) | numérica | 
+| **vs** | Tipo de motor (0 = en V, 1 = recto) | binaria |
+| **am** | Transmisión (0 = automática, 1 = manual) | binaria | 
+| **gear** | Cantidad de marchas | entera |
+| **carb** | Cantidad de carburadores | entera |
 
 ---
 
