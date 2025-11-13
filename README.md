@@ -24,8 +24,12 @@ El dataset **mtcars** contiene información sobre **32 modelos de autos** (años
 
 #### 🔹 Relación con la eficiencia (mpg)
 - Las variables más relacionadas con el **consumo (mpg)** son:
-  - **Número de cilindros**, **peso** y **desplazamiento**, todas con correlaciones negativas cercanas al **-85%**, indicando que autos más pesados o con motores más grandes consumen más combustible.  
+  - **Número de cilindros**, **peso** y **desplazamiento**, todas con correlaciones negativas cercanas al **-85%**, indicando que autos más pesados o con motores más grandes consumen más combustible.
+  <img width="1360" height="693" alt="Captura de pantalla 2025-11-13 134645" src="https://github.com/user-attachments/assets/f56c5cb1-0695-4453-8d6a-e5d95b8d64a0" />
+
   - **Caballos de fuerza** y **tipo de motor (vs)** muestran correlaciones positivas (≈ +68%), asociadas a un mejor rendimiento.
+  
+<img width="1363" height="691" alt="Captura de pantalla 2025-11-13 132938" src="https://github.com/user-attachments/assets/ae8e4009-1aa4-442f-a13d-f7566e8e0614" />
 
 #### 🔹 Correlaciones entre variables técnicas
 - **Cilindros ↔ Desplazamiento:** 0.90  
